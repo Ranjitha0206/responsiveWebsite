@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: rgb(143, 126, 171);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background: white;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.label{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(143, 126, 171);
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm{
+    padding: 20px 40px;
+}
+
+.loginForm .font{
+    font-size: 19px;
+    color: rgb(143, 126, 171);
+    margin: 5px 0;
+}
+
+.loginForm input{
+    height: 40px;
+    width: 350px;
+    padding: 3px 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm .font2{
+    margin-top: 30px;
+}
+
+.loginForm button{
+    margin: 45px 0 30px 0;
+    height: 40px;
+    width: 360px;
+    color:  rgb(143, 126, 171);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.loginForm .emailError,
+.loginForm .passError{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: red;
+    display: none;
+}
